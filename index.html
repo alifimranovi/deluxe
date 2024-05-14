@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deluxe Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Deluxe Store</h1>
+      <nav class="category-nav">
+        <ul class="category-list">
+          <li><a href="#">All</a></li>
+          <li><a href="#">Crypto</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Topups</a></li>
+          <li><a href="#">Subscriptions</a></li>
+          <li><a href="#">Hosting</a></li>
+        </ul>
+      </nav>
+      <div class="menu-btn" onclick="toggleMenu()">
+        <span class="icon"></span>
+      </div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to the <br> Deluxe Store</h2>
+      <p>Discover the latest and greatest products here.</p>
+      <a href="https://discord.gg/deluxestore" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="games">
+    <div class="container">
+      <h2>Featured Buys</h2>
+      <div class="game-list" id="game-list">
+        <!-- Game items will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>email: contact@deluxestorebd.fun</p>
+      <p>&copy; 2024 Deluxe Store | All rights reserved</p>
+    </div>
+  </footer>
+  <div id="welcome-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <h2>Welcome to <br> Deluxe Store!</h2>
+    <p style="color: gray;">Discover the latest and greatest products here.</p> <br>
+    <p style="color: red;">Not all products will appear in All category,</p>
+    <p style="color: deepskyblue;">search by categories instead.</p><br>
+    <p style="color: red;">Red is 'High Demand'.</p>
+    <p style="color: green;">Green is 'Affordable price'.</p> <br>
+    <a href="https://discord.gg/deluxestore" class="btn">Shop Now</a>
+    <a onclick="closePopup()"  class="btn" style="margin-top: 5px;">View Website</a>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
