@@ -72,7 +72,7 @@ function displayGames(category = 'all') {
     gameItem.classList.add('game-item');
 
     gameItem.innerHTML = `
-      <img src="images/${game.image}" alt="${game.name}">
+      <img src="${game.image}" alt="${game.name}">
       <div class="game-item-content">
         <h3>${game.name}</h3>
         <p>৳${game.price}</p>
@@ -134,7 +134,7 @@ function displaySimilarGames(category) {
     gameItem.classList.add('game-item');
 
     gameItem.innerHTML = `
-      <img src="images/${game.image}" alt="${game.name}">
+      <img src="${game.image}" alt="${game.name}">
       <div class="game-item-content">
         <h3>${game.name}</h3>
         <p>$${game.price}</p>
@@ -206,7 +206,7 @@ function displayGames(category = 'all') {
     // Add image only if the image URL is provided
     if (game.image) {
       const img = document.createElement('img');
-      img.src = `images/${game.image}`;
+      img.src = `${game.image}`;
       img.alt = game.name;
       gameItem.prepend(img);
     }
@@ -244,7 +244,7 @@ function displayGames(category = 'all') {
     }
 
     gameItem.innerHTML = `
-      <img src="images/${game.image}" alt="${game.name}">
+      <img src="${game.image}" alt="${game.name}">
       <div class="game-item-content">
         <h3>${game.name}</h3>
         ${game.price ? `<p style="color: ${priceColor};">৳${game.price}</p>` : ''}
