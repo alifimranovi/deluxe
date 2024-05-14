@@ -148,7 +148,7 @@ header .container {
 .hero h2 {
   font-size: 48px;
   margin-bottom: 20px;
-  background: url('/1.png');
+  background: url('1.png');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -386,7 +386,7 @@ footer {
   .popup {
     width: 80%;
   }
-}This CSS
+}
 
 .popup-content {
   text-align: center;
