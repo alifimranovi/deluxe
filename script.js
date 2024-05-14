@@ -94,7 +94,7 @@ function BuyProduct(name, price) {
   - open a ticket 
   - mention @owners 
   - place order`);
-  window.location.href = "https://discord.gg/deluxestore";
+  window.location.href = "https://discord.com/invite/fb6wdRtjFB";
 }
 
 // Display all games when the page loads
