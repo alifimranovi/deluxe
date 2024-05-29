@@ -34,8 +34,8 @@ const gamesByCategory = {
     { name: "Minecraft Java & Bedrock", image: "minecraftJava.jpg", price: 1499 },
     { name: "Minecraft Pocket Edition (personal)", image: "mcpe.jpg", price: 999 },
     { name: "Minecraft Pocket Edition (shared)", image: "mcpefa.jpg", price: 300 },
-    { name: "Grand Theft Auto V (Rockstar)", image: "gtavRockstar.jpg", price: 1499 },
-    { name: "Grand Theft Auto V (Steam personal)", image: "gtavSteam.jpg", price: 1799 }
+    { name: "Grand Theft Auto V (Rockstar)", image: "gtavRockstar.jpg", price: 1599 },
+    { name: "Grand Theft Auto V (Steam personal)", image: "gtavSteam.jpg", price: 1699 }
   ],
   topups: [
     { name: "Roblox", image: "roblox.jpg", description: "Acc access needed \n \nRobux Regular↓ \n80 Robux - ৳165 \n160 Robux - ৳315 \n240 Robux - ৳465 \n400 Robux - ৳660 \n800 Robux - ৳1305 \n1600 Robux - ৳2595 \n4500 Robux - ৳6515 \n \nRobux premium↓ \n1000 Robux ৳1365" },
